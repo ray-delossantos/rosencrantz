@@ -8,7 +8,7 @@ license       = "Apache2"
 skipDirs      = @["tests", "htmldocs"]
 skipFiles     = @["test.sh"]
 
-requires "nim >= 0.17.0"
+requires "nim >= 0.16.0"
 
 --forceBuild
 
