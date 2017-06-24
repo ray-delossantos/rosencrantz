@@ -46,5 +46,5 @@ macro makeHandler*(body: untyped): untyped =
 
 
   getAst(inner(body[6]))
-  //result = getAst(inner(body))
-  //echo result.toStrLit
+  #result = getAst(inner(body))
+  #echo result.toStrLit
